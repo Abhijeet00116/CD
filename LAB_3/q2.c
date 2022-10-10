@@ -7,7 +7,9 @@ int main()
     scanf("\n %s",ch);
     int i, l=strlen(ch),temp=0;
     for(i=0;i<l;i++){
-     if(ch[i]=='0' || ch[i]=='1' || ch[i]=='2' || ch[i]=='3' || ch[i]=='4' || ch[i]=='5' || ch[i]=='6'    || ch[i]=='7' || ch[i]=='8' || ch[i]=='9')
+     if(ch[i]=='0' || ch[i]=='1' || ch[i]=='2' 
+        || ch[i]=='3' || ch[i]=='4' || ch[i]=='5'
+        || ch[i]=='6'    || ch[i]=='7' || ch[i]=='8' || ch[i]=='9')
      {
      temp+=1;
      }
