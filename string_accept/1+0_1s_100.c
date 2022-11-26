@@ -2,7 +2,7 @@
 #include<string.h>
 #include<stdlib.h>
 void main(){
-	
+	int i;
 	char  s[50];
 	printf("Enter the string: ");
 	scanf("%s",s);
@@ -14,7 +14,7 @@ void main(){
 		exit(0);
 	}
 	if(l >=5)
-	for(int i = 0 ; i < l - 3 ; i+=2) {
+	for(i = 0 ; i < l - 3 ; i+=2) {
 		if(!(s[i] !='0' || s[i]!='1')){
 		dfa =0;
 		break;

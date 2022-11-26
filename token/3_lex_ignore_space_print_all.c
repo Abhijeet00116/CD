@@ -16,7 +16,7 @@ void main()
 {
      char ch,str[25],seps[15]=" \t\n,;(){}[]#\"<>",oper[]="!%^&*-+=~|.<>/?"; int j;
      FILE *f1;
-     f1 = fopen("input.txt","r");
+     f1 = fopen("lex_ignore_space.txt","r");
      while((ch=fgetc(f1))!=EOF)
      {
                  for(j=0;j<=14;j++)

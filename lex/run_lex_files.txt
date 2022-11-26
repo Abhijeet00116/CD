@@ -1,0 +1,4 @@
+save file.l
+type lex.l
+type cc lex.yy.c -ll
+type ./a.out
